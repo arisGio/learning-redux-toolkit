@@ -146,3 +146,27 @@ const mySlice = createSlice({
   - components
   - styles
 - empty-cart show when there's no item in the cart
+
+## 4 - Working with APIs in Redux Toolkit
+
+### Fetching APi data with createAsyncThunk
+
+- `createAsyncThunk()`
+
+- to handle asynchronous logic in bare redux, you need to set up a middleware with an external package like redux doc
+- for handling and processing asynchronous logic like api requests, before supplying the result to our app reducers
+
+- `npx json-server './src/data/productList.json'`
+  - mock fetching data from the above 'api'
+- returns a promise ass value
+
+### What you've learned and what's next
+
+- RTK Query
+  - RTK has an optional add-on for data fetching & caching named RTK Query, eliminating the needs to hand write data fetching and caching logic
+
+## Commands
+
+- `yarn`
+- `yarn start`
+- `yarn add <library-name>`
